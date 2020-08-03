@@ -25,8 +25,8 @@ Construct server-side programs to enhance the interactivity of Web pages
   * J2EE
 
 ## Project Team
-  > https://github.com/Hasindukosala
-  > https://github.com/mad-mavula
-  > https://github.com/malith007
-  > https://github.com/mlsvwichakshana88
-  > https://github.com/rishan98
+  * https://github.com/Hasindukosala
+  * https://github.com/mad-mavula
+  * https://github.com/malith007
+  * https://github.com/mlsvwichakshana88
+  * https://github.com/rishan98
