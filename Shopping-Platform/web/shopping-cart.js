@@ -1,9 +1,0 @@
-(function(){
-
-    $("#cart").on("click", function() {
-        $(".shopping-cart").fadeToggle( "fast");
-    });
-
-})();
-
-document.addEventListener("touchstart", function(){}, true);
