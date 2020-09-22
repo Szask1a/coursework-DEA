@@ -1,3 +1,9 @@
+<%-- 
+    Document   : shoppingCart
+    Created on : Sep 19, 2020, 10:34:41 AM
+    Author     : ASUS
+--%>
+
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 pageEncoding="ISO-8859-1"%>
 <%@page import="java.sql.DriverManager"%>
