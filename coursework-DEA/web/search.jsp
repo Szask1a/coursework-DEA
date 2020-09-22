@@ -4,6 +4,8 @@
     Author     : ASUS
 --%>
 
+<%@page import="com.mysql.jdbc.Blob"%>
+<%@page import="com.beans.ProductImage"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 pageEncoding="ISO-8859-1"%>
 <%@page import="java.sql.DriverManager"%>
@@ -18,7 +20,7 @@ ResultSet resultSet = null;
 
 <html>
 <head>
-<title>searchingg a Table</title>
+<title>searching a Table</title>
 </head>
 <body>
 <h1>Search Data</h1>
@@ -29,20 +31,21 @@ ResultSet resultSet = null;
 <td>Name</td>
 <td>Price</td>
 </tr>
-<%
+<%   
 try {
 Class.forName("com.mysql.jdbc.Driver").newInstance();
-connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/website", "root", "");
+connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/online", "root", "");
 Statement statement = connection.createStatement();
-String sql ="select * from sellertbl where keyword='"+id+"'";
+String sql ="select * from seller where keyword='"+id+"'";
 resultSet = statement.executeQuery(sql);
 while(resultSet.next()){
 %>
 <tr>
 <td><%=resultSet.getInt("id") %></td>
 <td><%=resultSet.getString("image") %></td>
+<!--<td><img src="data:image/jpg;base64,${book.base64Image}" width="240" height="300"/></td>-->
 <td><%=resultSet.getString("name") %></td>
-<td><%=resultSet.getInt("price") %></td>
+<td><%=resultSet.getDouble("price") %></td>
 </tr>
 <%
 }
