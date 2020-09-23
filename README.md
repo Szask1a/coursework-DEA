@@ -23,14 +23,11 @@ Group coursework for the Development of Enterprise Applications module 2nd year 
   *	The business idea should meet some societal, academic or commercial value which can be commercializable after the evaluation  
   *	Need to contain adequate number of pages required for the application
 
-
-## Summary 
-
-## Functionality
-
-## Design
-
 ## Instructions
+
+ *  Import the Online.sql database file 
+ *  Open the final build of the project inside the coursework-DEA folder from your IDE
+ *  Run the project from your IDE (preferably using Firefox, Chrome or IE)
 
 ## Tech Stack
   * HTML
