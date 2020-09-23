@@ -1,0 +1,42 @@
+<%-- 
+    Document   : signupform
+    Created on : 22-Sep-2020, 11:11:24
+    Author     : Rishxn
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+    </head>
+    <body >
+        ${message}
+        <form method="post" action="ValidatingServlet">
+            <table>
+                <tr>
+                    <td>UserName:</td>
+                    <td><input type="text" value='${usernameset}' id="username" name="username"  ></td>
+                </tr>
+                 <tr>
+                    <td>E-mail:</td>
+                    <td><input type="text" value='${emailset}' name="email"></td>
+                </tr>
+                 <tr>
+                    <td>Password:</td>
+                    <td><input type="password" name="password"></td>
+                </tr>
+                 <tr>
+                    <td>Re-type Password</td>
+                    <td><input type="password"  name="repassword"></td>
+                </tr>
+                
+            </table>
+            <input type="reset" value="reset" name="reset">
+            <input type="submit" value="register" name="register">
+        </form>
+       
+    </body>
+</html>
