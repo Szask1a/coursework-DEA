@@ -28,44 +28,10 @@
                         <a href="">Home</a>
                     </li>
                     <li>
-                        <a href="">Shop</a>
-                        <ul class="mega-dropdown">
-                            <li class="row">
-                            <ul class="mega-col">
-                                <li><a href="#">Shop</a></li>
-                                <li><a href="#">Shop</a></li>
-                                <li><a href="#">Shop</a></li>
-                                <li><a href="#">Shop</a></li>
-                            </ul>
-                            <ul class="mega-col">
-                                <li><a href="#">Shop</a></li>
-                                <li><a href="#">Shop</a></li>
-                                <li><a href="#">Shop</a></li>
-                                <li><a href="#">Shop</a></li>
-                            </ul>
-                            <ul class="mega-col">
-                                <li><a href="#">Shop</a></li>
-                                <li><a href="#">Shop</a></li>
-                                <li><a href="#">Shop</a></li>
-                                <li><a href="#">Shop</a></li>
-                            </ul>
-                            <ul class="mega-col">
-                                <li><a href="#">Shop</a></li>
-                                <li><a href="#">Shop</a></li>
-                                <li><a href="#">Shop</a></li>
-                                <li><a href="#">Shop</a></li>
-                            </ul>
-                            </li>
-                        </ul>        
+                        <a href="">Shop</a>    
                     </li>
                     <li class="dropdown">
-                        <a href="">Contact Us</a>
-                        <ul>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                        </ul>        
+                        <a href="">Contact Us</a>     
                     </li>
                     <li>
                         <a href="">Shopping Cart</a>
