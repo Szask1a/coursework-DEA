@@ -10,7 +10,7 @@
     <head>
         
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Sign Up</title>
         <link rel="stylesheet" href="stylesheet.css">
         <link href='//fonts.googleapis.com/css?family=Roboto:700,400&subset=latin' rel='stylesheet' type='text/css'>
     </head>
@@ -21,10 +21,10 @@
                 <a href="#">E-Shop</a>
             </div>  
             <nav>
-                <form class="search" method="get" action="search.jsp"> 
+<!--                <form class="search" method="get" action="search.jsp"> 
                     <input name="id" placeholder="Search..." type="search">
-                </form>
-                <ul>
+                </form>-->
+<!--                <ul>
                     <li>
                         <a href="">Home</a>
                     </li>
@@ -40,7 +40,7 @@
                     <li>
                         <a href="">My Profile</a>
                     </li>
-                </ul>
+                </ul>-->
             </nav>
         </div>
         
