@@ -60,7 +60,7 @@
                   
                     <span class="b">
                         <form action="cartServlet" method="post">
-                            <img src="<%=resultSet.getString(4)%> " width="150" height="150">
+                            <img src="<%=resultSet.getString(4)%> " width="100" height="150">
                             <b><%=resultSet.getString(5)%></b><br>
                             <b>$ <%=resultSet.getString(6)%></b><br>
                             <b>Quantity:<input type="text" name="qty" size="2"></b><br><br>
@@ -69,7 +69,7 @@
                             <input type="hidden" name="price" value="<%=resultSet.getString(6)%>">
                             <input type="submit" value="Add to cart">
                         </form>
-                    </span>&nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp       
+                    </span>&nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp       
                         
                     
                     <%

@@ -22,7 +22,9 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         
-         <title>Admin Panel css html</title>
+         <title>Admin</title>
+         <link rel="stylesheet" href="stylesheet.css">
+         <link href='//fonts.googleapis.com/css?family=Roboto:700,400&subset=latin' rel='stylesheet' type='text/css'>
 
     <script type="text/javascript">
         $(document).ready(function(){
@@ -45,21 +47,21 @@
   box-sizing: border-box;
 }
 
-html,body {
+/*html,body {
   font-family: 'Open Sans';
   height: 100%;
-}
+}*/
 
 a {
   text-decoration: none;
 }
 
-div#header {
+/*div#header {
   width: 100%;
   height: 8%;
   background-color: #2c3e50; 
   margin: 0 auto;
-}
+}*/
 
 .logo{
   float: left;
@@ -216,13 +218,28 @@ div#box .box-panel {
     </head>
     <body>
           
-        
         <div id="header">
+            <div class="logo">
+                <a href="#">Account</a>
+            </div>  
+            <nav>
+                <form class="search" method="get" action="search.jsp"> 
+                    <input name="id" placeholder="Search..." type="search">
+                </form>
+                <ul>
+                    <li>
+                        <a href="">Logout</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        
+<!--        <div id="header">
         <div class="logo">
             <h1>Account</h1>
         </div>
 
-    </div>
+    </div>-->
 
 
     <a class="mobile">MENU</a>
@@ -314,6 +331,6 @@ div#box .box-panel {
 
 
     </div>
-        
+        <script src="stylescript.js"></script>
     </body>
 </html>
