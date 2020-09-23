@@ -1,0 +1,7 @@
+function validation(){
+if(document.getElementById("username").value==null){
+alert("you must enter a username..");
+
+}
+
+}
