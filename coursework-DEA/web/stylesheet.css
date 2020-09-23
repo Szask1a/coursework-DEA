@@ -166,3 +166,23 @@ nav li li a:hover{background:#bdc3c7;background:#FAFBFB}
 .container .info span .fa {
   color: #EF3B3A;
 }
+
+table {
+  width: 100%;
+  margin: 20px auto;
+  table-layout: auto;
+  text-align: center;
+  color: black;
+  border-spacing:0 15px;
+}
+
+.button {
+  background-color: #1E262D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

@@ -20,7 +20,7 @@ ResultSet resultSet = null;
 
 <html>
 <head>
-<title>searching a Table</title>
+<title>Search Results</title>
 </head>
 <link rel="stylesheet" href="stylesheet.css">
 <body>
@@ -53,12 +53,12 @@ ResultSet resultSet = null;
         </div>
 <h1>Search Results</h1>
 <table border="0" class="table">
-<tr>
+<!--<tr>
 <td>Id</td>
 <td>Image</td>
 <td>Name</td>
 <td>Price</td>
-</tr>
+</tr>-->
 <%   
 try {
 Class.forName("com.mysql.jdbc.Driver").newInstance();
@@ -70,10 +70,15 @@ while(resultSet.next()){
 %>
 <tr>
 <td><%=resultSet.getInt("id") %></td>
-<td><%=resultSet.getString("image") %></td>
-<!--<td><img src="data:image/jpg;base64,${book.base64Image}" width="240" height="300"/></td>-->
+<td><img src="<%=resultSet.getString(4)%>" width="150" height="150"></td>
+<!--<td><img src="data:image/jpg;base64," width="240" height="300"/></td>-->
 <td><%=resultSet.getString("name") %></td>
-<td><%=resultSet.getDouble("price") %></td>
+<td>LKR &nbsp<%=resultSet.getDouble("price") %></td>
+<td>
+    <form>
+        <button type="submit" class="button">View</button>
+    </form>
+</td>
 </tr>
 <%
 }
