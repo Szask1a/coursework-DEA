@@ -22,9 +22,37 @@ ResultSet resultSet = null;
 <head>
 <title>searching a Table</title>
 </head>
+<link rel="stylesheet" href="stylesheet.css">
 <body>
-<h1>Search Data</h1>
-<table border="1">
+    <div id="header">
+            <div class="logo">
+                <a href="#">E-Shop</a>
+            </div>  
+            <nav>
+                <form class="search" method="get" action="search.jsp"> 
+                    <input name="id" placeholder="Search..." type="search">
+                </form>
+                <ul>
+                    <li>
+                        <a href="">Home</a>
+                    </li>
+                    <li>
+                        <a href="">Shop</a>    
+                    </li>
+                    <li class="dropdown">
+                        <a href="">Contact Us</a>     
+                    </li>
+                    <li>
+                        <a href="">Shopping Cart</a>
+                    </li>
+                    <li>
+                        <a href="">My Profile</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+<h1>Search Results</h1>
+<table border="0" class="table">
 <tr>
 <td>Id</td>
 <td>Image</td>
@@ -54,5 +82,11 @@ connection.close();
 e.printStackTrace();
 }
 %>
+
+
+<div class="footer">
+    Made for <a class="footer-text" href="https://github.com/Szask1a/coursework-DEA">DEA PROJECT 2020</a>
+</div>
+<script src="stylescript.js"></script>
 </body>
 </html>
